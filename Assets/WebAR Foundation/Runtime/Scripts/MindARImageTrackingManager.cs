@@ -129,7 +129,7 @@ public class MindARImageTrackingManager : MonoBehaviour
                         imageTracker.gameObject.SetActive(true);
                         UpdateTargetPose(imageTracker, targetIndex, worldMatrix);                        
                     } else {
-                        //imageTracker.gameObject.SetActive(false); TODO disabled by me
+                        imageTracker.gameObject.SetActive(false);
                     }                        
                 }
             };
